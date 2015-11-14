@@ -16,7 +16,7 @@ class fabworks extends PluginBase implements Listener
 }
 
 
-  public function onDeath(PlayerDeathEvent $e)
+  public function onDeath(PlayerDeathEvent $ent)
   {
     $p = $e->getPlayer();
     $light = new AddEntityPacket();
