@@ -12,7 +12,7 @@ class fabworks extends PluginBase implements Listener
 
   public function onEnable(){
   $this->getServer()->getPluginManager()->registerEvents($this, $this);
-  $this->getLogger()->info("Lightning Strikes loaded!");
+  $this->getLogger()->info("TextFormat::AQUA . Lightning Strikes loaded!");
 }
 
 
