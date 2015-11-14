@@ -6,6 +6,7 @@ use pocketmine\event\player\PlayerDeathEvent;
 use pocketmine\event\Listener;
 use pocketmine\network\protocol\AddEntityPacket;
 use pocketmine\entity\Entity;
+use pocketmine\network\protocol\AddEntityPacket;
 
 class fabworks extends PluginBase implements Listener
 {
